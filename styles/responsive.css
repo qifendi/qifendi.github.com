@@ -186,7 +186,8 @@ img.slide-full {
 }
 #features-block .flex-carousel li {
   max-width:320px !important;
-  margin:0 !important
+  margin:0 !important;
+  width:100%;
 }
 .pf-box-3col li {
   width:86%
