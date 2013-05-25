@@ -481,6 +481,10 @@ img.slide-full {
   text-align:center
 }
 }@media only screen and (min-width:768px) and (max-width:959px) {
+
+.nine, .row .nine {
+  width:98%;
+}
  
 #logo {
   margin-top:17px;
@@ -516,8 +520,8 @@ img.slide-full {
   border:none;
   outline:none
 }
-.sf-menu {
-  display:none
+.sf-menu ul {
+  width:100px;
 }
 #slider,#slider .flexslider .slides > li {
   width:100%;
@@ -621,6 +625,7 @@ img.slide-full {
 #features-block .flex-carousel li {
   max-width:212px;
   margin-right:0 12px !important;
+  width: 22%;
 }
 .pf-box-3col li {
   width:29.3%
